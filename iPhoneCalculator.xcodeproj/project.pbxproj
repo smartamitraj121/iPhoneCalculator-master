@@ -240,7 +240,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iPhoneCalculator/iPhoneCalculator-Prefix.pch";
 				INFOPLIST_FILE = "iPhoneCalculator/iPhoneCalculator-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cognizantenterprisemobility.-";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cognizantenterprisemobility.;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "3a10cdb2-ec02-41b3-ae14-e0e07793af86";
 				PROVISIONING_PROFILE_SPECIFIER = CognizantDistributionProfile;
@@ -257,7 +258,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iPhoneCalculator/iPhoneCalculator-Prefix.pch";
 				INFOPLIST_FILE = "iPhoneCalculator/iPhoneCalculator-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cognizantenterprisemobility.-";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cognizantenterprisemobility.;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "3a10cdb2-ec02-41b3-ae14-e0e07793af86";
 				PROVISIONING_PROFILE_SPECIFIER = CognizantDistributionProfile;
