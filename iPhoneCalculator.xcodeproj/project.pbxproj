@@ -193,6 +193,8 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: smartamitraj121@gmail.com (5ULR93SXTD)";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -218,6 +220,8 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: smartamitraj121@gmail.com (5ULR93SXTD)";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
@@ -241,7 +245,7 @@
 				GCC_PREFIX_HEADER = "iPhoneCalculator/iPhoneCalculator-Prefix.pch";
 				INFOPLIST_FILE = "iPhoneCalculator/iPhoneCalculator-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cognizantenterprisemobility.;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cognizantenterprisemobility.iphonecalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "3a10cdb2-ec02-41b3-ae14-e0e07793af86";
 				PROVISIONING_PROFILE_SPECIFIER = CognizantDistributionProfile;
@@ -259,7 +263,7 @@
 				GCC_PREFIX_HEADER = "iPhoneCalculator/iPhoneCalculator-Prefix.pch";
 				INFOPLIST_FILE = "iPhoneCalculator/iPhoneCalculator-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cognizantenterprisemobility.;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cognizantenterprisemobility.iphonecalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "3a10cdb2-ec02-41b3-ae14-e0e07793af86";
 				PROVISIONING_PROFILE_SPECIFIER = CognizantDistributionProfile;
